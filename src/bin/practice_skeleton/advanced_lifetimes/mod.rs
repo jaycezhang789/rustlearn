@@ -8,16 +8,16 @@
 //! 7. 带提示输出较长字符串
 //! 8. 在结构体上实现更多引用方法
 
-pub mod pick_longest;
-pub mod longest_word;
-pub mod article;
-pub mod find_match;
-pub mod shortest_word;
-pub mod longest_with_note;
+pub mod task01_pick_longest;
+pub mod task02_longest_word;
+pub mod task03_article;
+pub mod task05_find_match;
+pub mod task06_shortest_word;
+pub mod task07_longest_with_note;
 
-pub use pick_longest::pick_longest;
-pub use longest_word::longest_word;
-pub use article::Article;
-pub use find_match::find_match;
-pub use shortest_word::shortest_word;
-pub use longest_with_note::longest_with_note;
+pub use task01_pick_longest::pick_longest;
+pub use task02_longest_word::longest_word;
+pub use task03_article::Article;
+pub use task05_find_match::find_match;
+pub use task06_shortest_word::shortest_word;
+pub use task07_longest_with_note::longest_with_note;

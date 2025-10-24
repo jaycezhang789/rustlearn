@@ -7,16 +7,16 @@
 //! 6. 计算玩家平均积分
 //! 7. 选出积分最高的前 N 名玩家
 
-pub mod player;
-pub mod highest_scorer;
-pub mod find_player;
-pub mod award_bonus;
-pub mod average_score;
-pub mod top_n_players;
+pub mod task01_player;
+pub mod task03_highest_scorer;
+pub mod task04_find_player;
+pub mod task05_award_bonus;
+pub mod task06_average_score;
+pub mod task07_top_n_players;
 
-pub use player::Player;
-pub use highest_scorer::highest_scorer;
-pub use find_player::find_player;
-pub use award_bonus::award_bonus;
-pub use average_score::average_score;
-pub use top_n_players::top_n_players;
+pub use task01_player::Player;
+pub use task03_highest_scorer::highest_scorer;
+pub use task04_find_player::find_player;
+pub use task05_award_bonus::award_bonus;
+pub use task06_average_score::average_score;
+pub use task07_top_n_players::top_n_players;

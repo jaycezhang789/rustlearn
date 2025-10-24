@@ -7,18 +7,18 @@
 //! 6. 将温度数据标准化以便比较
 //! 7. 计算相邻温度之间的变化趋势
 
-pub mod welcome_message;
-pub mod average_temperature;
-pub mod merge_temperature_logs;
-pub mod highest_temperature;
-pub mod summarize_temperatures;
-pub mod normalize_temperatures;
-pub mod temperature_trend;
+pub mod task01_welcome_message;
+pub mod task02_average_temperature;
+pub mod task03_merge_temperature_logs;
+pub mod task04_highest_temperature;
+pub mod task05_summarize_temperatures;
+pub mod task06_normalize_temperatures;
+pub mod task07_temperature_trend;
 
-pub use welcome_message::welcome_message;
-pub use average_temperature::average_temperature;
-pub use merge_temperature_logs::merge_temperature_logs;
-pub use highest_temperature::highest_temperature;
-pub use summarize_temperatures::summarize_temperatures;
-pub use normalize_temperatures::normalize_temperatures;
-pub use temperature_trend::temperature_trend;
+pub use task01_welcome_message::welcome_message;
+pub use task02_average_temperature::average_temperature;
+pub use task03_merge_temperature_logs::merge_temperature_logs;
+pub use task04_highest_temperature::highest_temperature;
+pub use task05_summarize_temperatures::summarize_temperatures;
+pub use task06_normalize_temperatures::normalize_temperatures;
+pub use task07_temperature_trend::temperature_trend;

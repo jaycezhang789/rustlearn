@@ -7,18 +7,18 @@
 //! 6. 按块划分任务并行求和
 //! 7. 等待所有线程完成并统计数量
 
-pub mod spawn_sum;
-pub mod parallel_sum;
-pub mod collect_messages;
-pub mod concurrent_counter;
-pub mod run_tasks;
-pub mod chunked_sum;
-pub mod wait_for_all;
+pub mod task01_spawn_sum;
+pub mod task02_parallel_sum;
+pub mod task03_collect_messages;
+pub mod task04_concurrent_counter;
+pub mod task05_run_tasks;
+pub mod task06_chunked_sum;
+pub mod task07_wait_for_all;
 
-pub use spawn_sum::spawn_sum;
-pub use parallel_sum::parallel_sum;
-pub use collect_messages::collect_messages;
-pub use concurrent_counter::concurrent_counter;
-pub use run_tasks::run_tasks;
-pub use chunked_sum::chunked_sum;
-pub use wait_for_all::wait_for_all;
+pub use task01_spawn_sum::spawn_sum;
+pub use task02_parallel_sum::parallel_sum;
+pub use task03_collect_messages::collect_messages;
+pub use task04_concurrent_counter::concurrent_counter;
+pub use task05_run_tasks::run_tasks;
+pub use task06_chunked_sum::chunked_sum;
+pub use task07_wait_for_all::wait_for_all;

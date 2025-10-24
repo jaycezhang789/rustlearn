@@ -7,18 +7,18 @@
 //! 6. 计算阶乘
 //! 7. 生成三角数列
 
-pub mod countdown;
-pub mod odd_squares;
-pub mod multiplication_table;
-pub mod fibonacci_sequence;
-pub mod pascal_triangle;
-pub mod factorial;
-pub mod triangle_numbers;
+pub mod task01_countdown;
+pub mod task02_odd_squares;
+pub mod task03_multiplication_table;
+pub mod task04_fibonacci_sequence;
+pub mod task05_pascal_triangle;
+pub mod task06_factorial;
+pub mod task07_triangle_numbers;
 
-pub use countdown::countdown;
-pub use odd_squares::odd_squares;
-pub use multiplication_table::multiplication_table;
-pub use fibonacci_sequence::fibonacci_sequence;
-pub use pascal_triangle::pascal_triangle;
-pub use factorial::factorial;
-pub use triangle_numbers::triangle_numbers;
+pub use task01_countdown::countdown;
+pub use task02_odd_squares::odd_squares;
+pub use task03_multiplication_table::multiplication_table;
+pub use task04_fibonacci_sequence::fibonacci_sequence;
+pub use task05_pascal_triangle::pascal_triangle;
+pub use task06_factorial::factorial;
+pub use task07_triangle_numbers::triangle_numbers;

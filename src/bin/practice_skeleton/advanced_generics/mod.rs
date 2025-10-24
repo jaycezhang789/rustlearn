@@ -7,18 +7,18 @@
 //! 6. 根据提取的键值返回最大元素
 //! 7. 将键值对分组收集
 
-pub mod first_clone;
-pub mod pair_with_default;
-pub mod merge_maps;
-pub mod to_string_vec;
-pub mod sorted_keys;
-pub mod max_by_key;
-pub mod group_values;
+pub mod task01_first_clone;
+pub mod task02_pair_with_default;
+pub mod task03_merge_maps;
+pub mod task04_to_string_vec;
+pub mod task05_sorted_keys;
+pub mod task06_max_by_key;
+pub mod task07_group_values;
 
-pub use first_clone::first_clone;
-pub use pair_with_default::pair_with_default;
-pub use merge_maps::merge_maps;
-pub use to_string_vec::to_string_vec;
-pub use sorted_keys::sorted_keys;
-pub use max_by_key::max_by_key;
-pub use group_values::group_values;
+pub use task01_first_clone::first_clone;
+pub use task02_pair_with_default::pair_with_default;
+pub use task03_merge_maps::merge_maps;
+pub use task04_to_string_vec::to_string_vec;
+pub use task05_sorted_keys::sorted_keys;
+pub use task06_max_by_key::max_by_key;
+pub use task07_group_values::group_values;

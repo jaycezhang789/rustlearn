@@ -7,18 +7,18 @@
 //! 6. 统计成绩分布
 //! 7. 将成绩按总分归一化
 
-pub mod total_scores;
-pub mod student_average;
-pub mod top_student;
-pub mod pass_fail;
-pub mod class_median;
-pub mod grade_distribution;
-pub mod normalize_scores;
+pub mod task01_total_scores;
+pub mod task02_student_average;
+pub mod task03_top_student;
+pub mod task04_pass_fail;
+pub mod task05_class_median;
+pub mod task06_grade_distribution;
+pub mod task07_normalize_scores;
 
-pub use total_scores::total_scores;
-pub use student_average::student_average;
-pub use top_student::top_student;
-pub use pass_fail::pass_fail;
-pub use class_median::class_median;
-pub use grade_distribution::grade_distribution;
-pub use normalize_scores::normalize_scores;
+pub use task01_total_scores::total_scores;
+pub use task02_student_average::student_average;
+pub use task03_top_student::top_student;
+pub use task04_pass_fail::pass_fail;
+pub use task05_class_median::class_median;
+pub use task06_grade_distribution::grade_distribution;
+pub use task07_normalize_scores::normalize_scores;
