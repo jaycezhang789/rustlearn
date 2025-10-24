@@ -9,23 +9,23 @@
 //! 2. 逐个删除 `todo!()` 并补全逻辑。
 //! 3. 修改后多次运行编译器，利用错误信息指引你熟悉语法。
 
-#[path = "practice_skeleton/basics.rs"]
+#[path = "practice_skeleton/basics/mod.rs"]
 mod basics;
-#[path = "practice_skeleton/commands.rs"]
+#[path = "practice_skeleton/commands/mod.rs"]
 mod commands;
-#[path = "practice_skeleton/iterators.rs"]
+#[path = "practice_skeleton/iterators/mod.rs"]
 mod iterators;
-#[path = "practice_skeleton/loops.rs"]
+#[path = "practice_skeleton/loops/mod.rs"]
 mod loops;
-#[path = "practice_skeleton/players.rs"]
+#[path = "practice_skeleton/players/mod.rs"]
 mod players;
-#[path = "practice_skeleton/scores.rs"]
+#[path = "practice_skeleton/scores/mod.rs"]
 mod scores;
-#[path = "practice_skeleton/advanced_generics.rs"]
+#[path = "practice_skeleton/advanced_generics/mod.rs"]
 mod advanced_generics;
-#[path = "practice_skeleton/advanced_lifetimes.rs"]
+#[path = "practice_skeleton/advanced_lifetimes/mod.rs"]
 mod advanced_lifetimes;
-#[path = "practice_skeleton/advanced_concurrency.rs"]
+#[path = "practice_skeleton/advanced_concurrency/mod.rs"]
 mod advanced_concurrency;
 
 pub use basics::{
